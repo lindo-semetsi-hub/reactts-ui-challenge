@@ -1,0 +1,36 @@
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 5%;
+    background-color: #222;
+    color: white;
+    gap: 2rem;
+}
+
+.info-section .left {
+    flex: 1;
+}
+
+.info-section .left h2 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.info-section .left p {
+    margin-bottom: 1.5rem;
+}
+
+.info-section .left img {
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+.info-section .right {
+    flex: 1;
+}
+
+.info-section .right img {
+    max-width: 100%;
+    border-radius: 8px;
+}

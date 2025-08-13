@@ -1,4 +1,4 @@
-import type React from "react";
+
 import "./../styles/section.css";
 
 type SectionProps = {

@@ -1,4 +1,4 @@
-import type React from "react";
+
 import "./../styles/hero.css";
 
 type HeroProps = {

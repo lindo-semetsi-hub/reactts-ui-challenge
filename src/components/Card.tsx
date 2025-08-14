@@ -1,5 +1,5 @@
 import type React from "react";
-import "./styles/card.css";
+import '../styles/card.css';
 
 type CardProps = {
     imageUrl: string;

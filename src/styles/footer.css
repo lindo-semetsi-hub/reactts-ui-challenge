@@ -1,0 +1,26 @@
+.footer {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 3rem 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.footer h4 {
+    margin-bottom: 1rem;
+}
+.footer p,
+.footer li {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}

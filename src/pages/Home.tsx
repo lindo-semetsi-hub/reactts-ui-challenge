@@ -1,8 +1,8 @@
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import Section from "./components/Section";
-import Card from "./components/Card";
-import Footer from "./components/Footer";
+import Navbar from "../components/Navbar";
+import HeroSection from "../components/HeroSection";
+import Section from "../components/Section";
+import Card from "../components/Card";
+import Footer from "../components/Footer";
 import type React from "react";
 
 const Home: React.FC = () => {

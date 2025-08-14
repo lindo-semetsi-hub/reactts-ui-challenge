@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import berries from ",,/assets/berries.jpg";
+import strawberries from '../assets/strawberries.jpg';
 
 const Hero: React.FC = () => {
     return (
@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
             {/* Right Section */}
             <div className="hero-right">
                 {/*Top Image */}
-                <img src={berries} alt="Berries" className="hero-image" />
+                <img src={strawberries} alt="Berries" className="hero-image" />
 
                 {/* White Crad */}
                 <div className="hero-card">

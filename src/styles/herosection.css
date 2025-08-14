@@ -1,0 +1,32 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 5%;
+    background-color: #1b1b1b;
+    color: white;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #ff6b00;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.hero-image img {
+    max-width: 400px;
+    border-radius: 8px;
+}

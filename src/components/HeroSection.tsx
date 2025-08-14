@@ -1,5 +1,5 @@
 import type React from "react";
-import "./../styles/hero.css";
+import "./../styles/herosection.css";
 
 type HeroProps = {
     title: string;

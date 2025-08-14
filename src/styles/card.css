@@ -28,3 +28,10 @@ gap: 1.5rem;
 padding: 3rem 5%;
 background-color: #1b1b1b;
 }
+
+@media (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}

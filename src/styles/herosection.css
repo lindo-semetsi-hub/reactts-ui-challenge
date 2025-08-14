@@ -30,3 +30,20 @@
     max-width: 400px;
     border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem, 5%;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text img {
+        margin-top: 2rem;
+        max-width: 100%
+    }
+}

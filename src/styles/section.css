@@ -30,3 +30,19 @@ margin-bottom: 0.8rem;
  .info-section .right img {
     max-width: 100%border-radius 8px;
  }
+
+ @media (max-width: 768px) {
+    .info-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-section .left,
+    .info-section .right {
+        flex: 1;
+    }
+    .info-section .right img {
+        max-width: 100%;
+        margin-top: 1.5rem;
+    }
+ }
